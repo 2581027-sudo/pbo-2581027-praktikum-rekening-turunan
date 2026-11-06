@@ -15,6 +15,7 @@ public class Giro extends Rekening {
         return true;
     }
 
+    // Error: java: nomor has private access in Rekening
     @Override
     public void cetakInfo() {
         super.cetakInfo();
